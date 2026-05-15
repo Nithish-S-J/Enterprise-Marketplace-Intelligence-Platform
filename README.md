@@ -1,3 +1,10 @@
+
+# Swiggy_Enterprise_Analytics_Platform
+
+An end-to-end Microsoft Fabric analytics solution designed to analyze food delivery operations, customer behavior, restaurant performance, and business KPIs using Lakehouse, Data Warehouse, SQL, and Power BI. Built with enterprise-style architecture, medallion data modeling, and interactive executive dashboards for real-world business insights.
+
+![Project_Preview](https://github.com/Nithish-S-J/Fabric_Swiggy_Analytics_Project/blob/main/Docs/Project_Architecture/Swiggy_analytics_architecture.png)
+
 ```
 swiggy-enterprise-analytics-platform/
 │
@@ -6,111 +13,86 @@ swiggy-enterprise-analytics-platform/
 ├── .gitignore
 │
 ├── docs/
-│   │
 │   ├── business-requirements/
 │   │   └── Swiggy_Business_Requirements.docx
 │   │
-│   ├── project-documentation/
-│   │   ├── Project_Overview.md
-│   │   ├── Data_Dictionary.xlsx
-│   │   ├── KPI_Definitions.md
-│   │   └── Data_Quality_Checks.md
-│   │
-│   ├── architecture/
-│   │   ├── Solution_Architecture.png
+│   ├── solution-design/
+│   │   ├── Enterprise_Solution_Design.docx
+│   │   ├── End_to_End_Architecture.png
 │   │   ├── Medallion_Architecture.png
-│   │   ├── Star_Schema_Model.png
-│   │   └── End_to_End_Project_Flow.pptx
+│   │   └── Star_Schema_Model.png
+│   │
+│   ├── governance/
+│   │   ├── Naming_Standards.md
+│   │   ├── Data_Quality_Framework.md
+│   │   └── Security_RBAC_Model.md
+│   │
+│   ├── kpi-catalog/
+│   │   └── Business_KPI_Definitions.xlsx
 │   │
 │   └── screenshots/
-│       ├── fabric/
-│       ├── sql/
-│       ├── powerbi/
-│       └── dashboards/
+│       ├── fabric_workspace/
+│       ├── dataflow_gen2/
+│       ├── sql_transformations/
+│       ├── warehouse_model/
+│       └── powerbi_dashboards/
 │
 ├── data/
-│   │
 │   ├── bronze_raw/
 │   │   ├── customers.csv
-│   │   ├── orders.csv
 │   │   ├── restaurants.csv
+│   │   ├── orders.csv
 │   │   ├── deliveries.csv
-│   │   └── delivery_partners.csv
+│   │   ├── delivery_partners.csv
+│   │   └── payments.csv
 │   │
 │   ├── silver_cleaned/
 │   │
-│   └── gold_business/
+│   └── gold_curated/
 │
 ├── sql/
-│   │
 │   ├── ddl/
-│   │   ├── create_tables.sql
-│   │   └── create_views.sql
-│   │
-│   ├── dml/
-│   │   ├── insert_data.sql
-│   │   └── merge_queries.sql
+│   │   ├── create_dimension_tables.sql
+│   │   └── create_fact_tables.sql
 │   │
 │   ├── transformations/
-│   │   ├── data_cleaning.sql
-│   │   ├── validation_checks.sql
-│   │   └── business_rules.sql
+│   │   ├── bronze_to_silver.sql
+│   │   └── silver_to_gold.sql
 │   │
-│   ├── warehouse_modeling/
-│   │   ├── dim_customer.sql
-│   │   ├── dim_restaurant.sql
-│   │   ├── dim_date.sql
-│   │   ├── dim_location.sql
-│   │   └── fact_orders.sql
+│   ├── data_quality_checks/
+│   │   ├── duplicate_validation.sql
+│   │   ├── null_checks.sql
+│   │   ├── referential_integrity.sql
+│   │   └── delivery_sla_validation.sql
 │   │
-│   ├── kpi_queries/
-│   │   ├── revenue_kpis.sql
-│   │   ├── delivery_kpis.sql
-│   │   ├── customer_kpis.sql
-│   │   └── restaurant_kpis.sql
-│   │
-│   └── analytical_queries/
-│       ├── churn_analysis.sql
-│       ├── sla_analysis.sql
-│       ├── city_performance.sql
-│       └── customer_segmentation.sql
+│   └── analytics/
+│       ├── customer_analytics.sql
+│       ├── revenue_analysis.sql
+│       ├── restaurant_performance.sql
+│       └── delivery_operations.sql
 │
 ├── fabric/
-│   │
 │   ├── lakehouse/
-│   │
 │   ├── warehouse/
-│   │
 │   ├── dataflow_gen2/
-│   │
 │   ├── pipelines/
-│   │
 │   └── semantic_model/
 │
-├── notebooks/
-│   ├── exploratory_analysis/
-│   └── advanced_analytics/
-│
 ├── powerbi/
-│   │
 │   ├── datasets/
-│   │
 │   ├── reports/
-│   │
-│   ├── themes/
-│   │
+│   ├── dax_measures/
 │   └── pbix/
 │
 ├── monitoring/
-│   ├── pipeline_logs/
-│   └── refresh_tracking/
+│   ├── pipeline_monitoring/
+│   ├── refresh_logs/
+│   └── audit_tracking/
 │
-├── tests/
-│   ├── data_quality_tests/
-│   └── sql_validation_tests/
+├── automation/
 │
 └── assets/
-    ├── icons/
-    ├── dashboard_mockups/
-    └── diagrams/
+    ├── architecture_icons/
+    ├── dashboard_themes/
+    └── branding/
 ```
