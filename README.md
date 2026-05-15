@@ -1,4 +1,5 @@
-'''swiggy-enterprise-analytics-platform/
+```
+swiggy-enterprise-analytics-platform/
 │
 ├── README.md
 ├── LICENSE
@@ -111,4 +112,5 @@
 └── assets/
     ├── icons/
     ├── dashboard_mockups/
-    └── diagrams/'''
+    └── diagrams/
+```
