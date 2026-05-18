@@ -1,0 +1,97 @@
+# Dataset: swiggy.csv
+
+## Business Purpose
+This dataset represents restaurant master and operational catalog data from the Swiggy food delivery ecosystem. It is primarily used for restaurant analytics, cuisine intelligence, pricing analysis, customer preference analysis, and regional performance reporting.
+
+---
+
+## Dataset Category
+Master / Reference Dataset
+
+---
+
+## Key Business Entities
+- Restaurants
+- Locations
+- Cities
+- Food Categories
+- Pricing Segments
+
+---
+
+## Key Columns
+
+| Column Name | Description |
+|---|---|
+| ID | Unique restaurant identifier |
+| Area | Restaurant locality/area |
+| City | Restaurant city |
+| Restaurant | Restaurant name |
+| Price | Average pricing level |
+| Avg ratings | Restaurant average customer rating |
+| Total ratings | Total customer ratings received |
+| Food type | Cuisine/Food categories |
+| Address | Restaurant address |
+| Delivery time | Estimated delivery duration |
+
+---
+
+## Potential KPIs
+- Top Rated Restaurants
+- Average Restaurant Rating
+- Restaurants by City
+- Cuisine Popularity Analysis
+- Average Delivery Time by Area
+- Premium vs Budget Restaurant Analysis
+- Restaurant Distribution by Location
+- Fastest Delivery Restaurants
+
+---
+
+## Business Use Cases
+- Restaurant performance analysis
+- Cuisine trend analysis
+- Regional market analysis
+- Delivery efficiency analysis
+- Pricing intelligence
+- Customer preference insights
+- Area-wise restaurant concentration analysis
+
+---
+
+## Expected Target Tables
+
+### Dimension Tables
+- dim_restaurant
+- dim_location
+- dim_dish
+- dim_city
+
+### Supporting Fact Relationships
+- fact_orders
+- fact_deliveries
+
+---
+
+## Data Quality Observations
+- Standardize city names
+- Standardize food category naming conventions
+- Validate missing restaurant ratings
+- Validate delivery time consistency
+- Remove duplicate restaurant records
+- Handle inconsistent address formatting
+
+---
+
+## Transformation Requirements
+- Split multi-value food categories
+- Create cuisine hierarchy
+- Create pricing bands
+- Generate restaurant rating categories
+- Standardize location dimensions
+- Create delivery performance indicators
+
+---
+
+## Enterprise Analytics Value
+This dataset strengthens the analytical foundation of the project by enabling restaurant intelligence, cuisine analytics, regional performance monitoring, and customer preference insights. It supports enterprise-grade business reporting and enhances dimensional modeling for Power BI dashboards.
