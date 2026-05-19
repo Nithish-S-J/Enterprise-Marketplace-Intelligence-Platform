@@ -1,0 +1,47 @@
+# silver_deliveries
+
+## Business Purpose
+Trusted operational delivery dataset used for SLA monitoring and logistics intelligence.
+
+---
+
+## Source System
+Food Delivery Time Prediction Case Study.xlsx
+
+---
+
+## Primary Key
+ID
+
+---
+
+## Business Grain
+One row per delivery operation.
+
+---
+
+## Key Analytical Areas
+- Delivery Performance
+- Rider Efficiency
+- Vehicle Analysis
+- Operational Monitoring
+
+---
+
+## Important Measures
+- Time_taken(min)
+- Delivery_person_Ratings
+
+---
+
+## Data Quality Controls
+- Coordinate validation
+- Delivery time validation
+- Vehicle standardization
+
+---
+
+## Downstream Usage
+- fact_deliveries
+- SLA dashboards
+- Logistics KPIs
