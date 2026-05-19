@@ -1,0 +1,49 @@
+# silver_orders
+
+## Business Purpose
+Trusted transactional dataset used for revenue reporting, customer analytics, and operational KPI reporting.
+
+---
+
+## Source System
+Ecommerce_Delivery_Analytics_New.csv
+
+---
+
+## Primary Key
+Order_ID
+
+---
+
+## Business Grain
+One row per customer order transaction.
+
+---
+
+## Key Analytical Areas
+- Revenue Analytics
+- Customer Analytics
+- Refund Monitoring
+- Delivery SLA Tracking
+
+---
+
+## Important Measures
+- Order Value
+- Delivery Time
+- Service Rating
+
+---
+
+## Data Quality Controls
+- Duplicate removal
+- Revenue validation
+- Rating validation
+- Null handling
+
+---
+
+## Downstream Usage
+- fact_orders
+- Executive dashboards
+- Revenue KPIs
