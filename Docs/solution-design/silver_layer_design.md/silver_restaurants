@@ -1,0 +1,48 @@
+# silver_restaurants
+
+## Business Purpose
+Trusted restaurant master dataset used for cuisine analytics and restaurant intelligence.
+
+---
+
+## Source System
+swiggy.csv
+
+---
+
+## Primary Key
+ID
+
+---
+
+## Business Grain
+One row per restaurant.
+
+---
+
+## Key Analytical Areas
+- Restaurant Performance
+- Cuisine Analytics
+- Regional Analysis
+- Pricing Intelligence
+
+---
+
+## Important Measures
+- Avg ratings
+- Price
+- Delivery time
+
+---
+
+## Data Quality Controls
+- City standardization
+- Cuisine normalization
+- Rating validation
+
+---
+
+## Downstream Usage
+- dim_restaurant
+- dim_location
+- Restaurant dashboards
