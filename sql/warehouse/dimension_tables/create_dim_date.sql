@@ -1,3 +1,24 @@
+-------------------------------------------------------create_dim_date---------------------------------------------------------
+
+CREATE TABLE dim_date
+(
+    date_key INT,
+    full_date DATE,
+    year INT,
+    quarter INT,
+    month INT,
+    month_name VARCHAR(20),
+    day_of_month INT,
+    day_name VARCHAR(20),
+    weekday_number INT,
+    weekend_flag VARCHAR(10)
+);
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+#insert below query
+
+
 WITH numbers AS
 (
     SELECT 0 AS n
