@@ -10,7 +10,7 @@ The model was built in Microsoft Fabric using Direct Lake semantic modeling.
 
 #scemantice_model_preview
 
-![scemantic_model_preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/fabric/scemantic_model/scemantic_model.png)
+![scemantic_model_preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/fabric/scemantic_model/new_scemantic_model.png)
 
 # Model Architecture
 
