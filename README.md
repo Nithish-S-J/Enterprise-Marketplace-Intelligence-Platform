@@ -1,5 +1,5 @@
 
-# Swiggy_Enterprise_Analytics_Platform
+# Enterprise Marketplace Intelligence Platform
 
 An end-to-end Microsoft Fabric analytics solution designed to analyze food delivery operations, customer behavior, restaurant performance, and business KPIs using Lakehouse, Data Warehouse, SQL, and Power BI. Built with enterprise-style architecture, medallion data modeling, and interactive executive dashboards for real-world business insights.
 
