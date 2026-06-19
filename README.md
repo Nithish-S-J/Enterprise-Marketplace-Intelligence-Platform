@@ -1,7 +1,7 @@
-
 # Enterprise Marketplace Intelligence Platform
+### End-to-End Decision Intelligence Solution using Microsoft Fabric & Power BI
 
-An end-to-end Microsoft Fabric analytics solution designed to analyze food delivery operations, customer behavior, restaurant performance, and business KPIs using Lakehouse, Data Warehouse, SQL, and Power BI. Built with enterprise-style architecture, medallion data modeling, and interactive executive dashboards for real-world business insights.
+Enterprise Marketplace Intelligence Platform built using Microsoft Fabric, Lakehouse, SQL Warehouse, Semantic Models, and Power BI to transform operational data into actionable insights across Revenue, Customers, Restaurants, and Delivery Operations.
 
 ![Project_Preview](https://github.com/Nithish-S-J/Enterprise-Marketplace-Intelligence-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements_v1.png.png)
 ```
