@@ -5,93 +5,46 @@ Enterprise Marketplace Intelligence Platform built using Microsoft Fabric, Lakeh
 
 ![Project_Preview](https://github.com/Nithish-S-J/Enterprise-Marketplace-Intelligence-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements_v1.png.png)
 ```
-swiggy-enterprise-analytics-platform/
+Enterprise-Marketplace-Intelligence-Platform
 │
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 │
-├── docs/
-│   ├── business-requirements/
-│   │   └── Swiggy_Business_Requirements.docx
-│   │
-│   ├── solution-design/
-│   │   ├── Enterprise_Solution_Design.docx
-│   │   ├── End_to_End_Architecture.png
-│   │   ├── Medallion_Architecture.png
-│   │   └── Star_Schema_Model.png
-│   │
-│   ├── governance/
-│   │   ├── Naming_Standards.md
-│   │   ├── Data_Quality_Framework.md
-│   │   └── Security_RBAC_Model.md
-│   │
-│   ├── kpi-catalog/
-│   │   └── Business_KPI_Definitions.xlsx
-│   │
-│   └── screenshots/
-│       ├── fabric_workspace/
-│       ├── dataflow_gen2/
-│       ├── sql_transformations/
-│       ├── warehouse_model/
-│       └── powerbi_dashboards/
+├── Docs
+│   ├── Business-Requirements
+│   ├── Data-Dictionary
+│   ├── Data-Governance
+│   ├── Project-Architecture
+│   ├── Project-Documentation
+│   ├── Business-Reporting
+│   └── Solution-Design
 │
-├── data/
-│   ├── bronze_raw/
-│   │   ├── customers.csv
-│   │   ├── restaurants.csv
-│   │   ├── orders.csv
-│   │   ├── deliveries.csv
-│   │   ├── delivery_partners.csv
-│   │   └── payments.csv
-│   │
-│   ├── silver_cleaned/
-│   │
-│   └── gold_curated/
+├── Fabric
+│   ├── Dataflow-Gen2
+│   ├── Lakehouse
+│   ├── Warehouse
+│   └── README.md
 │
-├── sql/
-│   ├── ddl/
-│   │   ├── create_dimension_tables.sql
-│   │   └── create_fact_tables.sql
-│   │
-│   ├── transformations/
-│   │   ├── bronze_to_silver.sql
-│   │   └── silver_to_gold.sql
-│   │
-│   ├── data_quality_checks/
-│   │   ├── duplicate_validation.sql
-│   │   ├── null_checks.sql
-│   │   ├── referential_integrity.sql
-│   │   └── delivery_sla_validation.sql
-│   │
-│   └── analytics/
-│       ├── customer_analytics.sql
-│       ├── revenue_analysis.sql
-│       ├── restaurant_performance.sql
-│       └── delivery_operations.sql
+├── SQL
+│   ├── Warehouse
+│   ├── Views
+│   └── Advanced-Analytical-Views
 │
-├── fabric/
-│   ├── lakehouse/
-│   ├── warehouse/
-│   ├── dataflow_gen2/
-│   ├── pipelines/
-│   └── semantic_model/
+├── PowerBI
+│   ├── Report
+│   ├── DAX-Measures
+│   ├── Semantic-Model
+│   ├── Screenshots
+│   └── README.md
 │
-├── powerbi/
-│   ├── datasets/
-│   ├── reports/
-│   ├── dax_measures/
-│   └── pbix/
+├── Data
+│   ├── Raw
+│   ├── Processed
+│   └── README.md
 │
-├── monitoring/
-│   ├── pipeline_monitoring/
-│   ├── refresh_logs/
-│   └── audit_tracking/
-│
-├── automation/
-│
-└── assets/
-    ├── architecture_icons/
-    ├── dashboard_themes/
-    └── branding/
+└── Assets
+    ├── Architecture
+    ├── Data-Model
+    └── Icons
 ```
