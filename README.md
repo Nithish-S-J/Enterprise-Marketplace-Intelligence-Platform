@@ -3,7 +3,7 @@
 
 An end-to-end Microsoft Fabric analytics solution designed to analyze food delivery operations, customer behavior, restaurant performance, and business KPIs using Lakehouse, Data Warehouse, SQL, and Power BI. Built with enterprise-style architecture, medallion data modeling, and interactive executive dashboards for real-world business insights.
 
-![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements_v1.png)
+![Project_Preview](https://github.com/Nithish-S-J/Enterprise-Marketplace-Intelligence-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements_v1.png.png)
 ```
 swiggy-enterprise-analytics-platform/
 │
