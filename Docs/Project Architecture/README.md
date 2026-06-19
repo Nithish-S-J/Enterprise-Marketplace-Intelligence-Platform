@@ -10,4 +10,4 @@ It showcases:
 - Operational and restaurant analytics domains
 - Gold layer analytical readiness
 
-![Silver Layer Dataflow](./silver_layer_dataflow_summary.png)
+
