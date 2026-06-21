@@ -32,7 +32,7 @@ The platform enables stakeholders to:
 - SQL
 - Git & GitHub
 
-![Project_Preview](https://github.com/Nithish-S-J/Enterprise-Marketplace-Intelligence-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements_v1.png.png)
+![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements.png)
 ```
 Enterprise-Marketplace-Intelligence-Platform
 │
