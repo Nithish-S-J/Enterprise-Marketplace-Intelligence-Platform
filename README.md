@@ -18,20 +18,6 @@ The platform enables stakeholders to:
 - Understand geographic performance across cities
 - Support data-driven business decisions
 
-- ## Technology Stack
-
-- Microsoft Fabric
-- OneLake
-- Lakehouse
-- SQL Warehouse
-- Dataflow Gen2
-- Power Query
-- Semantic Model
-- Power BI
-- DAX
-- SQL
-- Git & GitHub
-
 ![Project_Preview](https://github.com/Nithish-S-J/Swiggy-Enterprise-Analytics-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements.png)
 ```
 Enterprise-Marketplace-Intelligence-Platform
