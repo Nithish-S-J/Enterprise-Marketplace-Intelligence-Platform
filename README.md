@@ -1,5 +1,5 @@
 # Swiggy Enterprise Analytics Platform
-###Enterprise Business Intelligence & Decision Intelligence Platform built using Microsoft Fabric and Power BI
+### Enterprise Business Intelligence & Decision Intelligence Platform built using Microsoft Fabric and Power BI
 
 The Swiggy Enterprise Analytics Platform is an end-to-end Business Intelligence solution designed to transform operational data into actionable insights across Revenue, Customers, Restaurants, Delivery Operations, and Geographic Performance.
 
