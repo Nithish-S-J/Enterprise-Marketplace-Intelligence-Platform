@@ -1,7 +1,36 @@
-# Enterprise Marketplace Intelligence Platform
-### End-to-End Decision Intelligence Solution using Microsoft Fabric & Power BI
+# Swiggy Enterprise Analytics Platform
+###Enterprise Business Intelligence & Decision Intelligence Platform built using Microsoft Fabric and Power BI
 
-Enterprise Marketplace Intelligence Platform built using Microsoft Fabric, Lakehouse, SQL Warehouse, Semantic Models, and Power BI to transform operational data into actionable insights across Revenue, Customers, Restaurants, and Delivery Operations.
+The Swiggy Enterprise Analytics Platform is an end-to-end Business Intelligence solution designed to transform operational data into actionable insights across Revenue, Customers, Restaurants, Delivery Operations, and Geographic Performance.
+
+Built using Microsoft Fabric, Lakehouse, SQL Warehouse, Semantic Models, and Power BI, the platform follows a modern Medallion Architecture (Bronze, Silver, Gold) to support enterprise-grade reporting, KPI monitoring, and executive decision-making.
+
+## Business Objective
+
+The objective of this platform is to provide a unified view of business performance by integrating transactional, operational, and restaurant intelligence datasets into a centralized analytics ecosystem.
+
+The platform enables stakeholders to:
+
+- Monitor revenue growth and profitability
+- Analyze customer behavior and lifetime value
+- Evaluate restaurant and cuisine performance
+- Track delivery efficiency and SLA compliance
+- Understand geographic performance across cities
+- Support data-driven business decisions
+
+- ## Technology Stack
+
+- Microsoft Fabric
+- OneLake
+- Lakehouse
+- SQL Warehouse
+- Dataflow Gen2
+- Power Query
+- Semantic Model
+- Power BI
+- DAX
+- SQL
+- Git & GitHub
 
 ![Project_Preview](https://github.com/Nithish-S-J/Enterprise-Marketplace-Intelligence-Platform/blob/main/Docs/Project%20Architecture/Swiggy_Enterprise_Business_Requirements_v1.png.png)
 ```
